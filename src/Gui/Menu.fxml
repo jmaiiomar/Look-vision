@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="bck" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" styleClass="bck" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiController.MenuController">
+   <children>
+      <Pane layoutX="-3.0" layoutY="-1.0" prefHeight="815.0" prefWidth="318.0" styleClass="parent" stylesheets="@../CSS/style.css">
+         <children>
+            <Pane layoutX="1.0" layoutY="120.0" prefHeight="165.0" prefWidth="320.0" style="-fx-background-color: #F91C69;">
+               <children>
+                  <Text fill="#f8f8f8" layoutX="51.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: pink;" text="Accueil" wrappingWidth="254.13670349121094">
+                     <font>
+                        <Font name="Arial Black" size="47.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="376.0" layoutY="276.0" onMouseClicked="#afficherPageStatistique" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F91C#F6DA1269; -fx-background-radius: 50;" styleClass="btns" stylesheets="@../CSS/style.css">
+         <children>
+            <ImageView fitHeight="147.0" fitWidth="159.0" layoutX="21.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/diagram.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="710.0" layoutY="282.0" onMouseClicked="#AfficherPageFacture" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F91C69; -fx-background-radius: 50;" styleClass="btns" stylesheets="@../CSS/style.css">
+         <children>
+            <ImageView fitHeight="147.0" fitWidth="159.0" layoutX="27.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/list.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="1066.0" layoutY="285.0" onMouseClicked="#AfficherPageAjoutFacture" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F91C#F6DA1269; -fx-background-radius: 50;" styleClass="btns" stylesheets="@../CSS/style.css">
+         <children>
+            <ImageView fitHeight="147.0" fitWidth="159.0" layoutX="36.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/checklist.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="388.0" layoutY="484.0" prefHeight="46.0" prefWidth="191.0" text="Statistique">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="1083.0" layoutY="484.0" prefHeight="46.0" prefWidth="342.0" text="Nouvelles ">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="688.0" layoutY="484.0" prefHeight="46.0" prefWidth="333.0" text="Liste des Clients">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="697.0" layoutY="530.0" prefHeight="46.0" prefWidth="333.0" text="&amp; des Factures">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="1081.0" layoutY="530.0" prefHeight="46.0" prefWidth="342.0" text="Factures">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

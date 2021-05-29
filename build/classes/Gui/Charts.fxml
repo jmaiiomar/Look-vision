@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="bck" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1230.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiController.ChartsController">
+   <children>
+      <PieChart fx:id="PieChart" layoutX="110.0" layoutY="146.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="1010.0" />
+   </children>
+</AnchorPane>

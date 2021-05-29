@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="facturePane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="809.0" prefWidth="1243.0" styleClass="bck" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiController.FactureController">
+   <children>
+      <TableView fx:id="tab" layoutX="2.0" layoutY="50.0" onMouseClicked="#select" prefHeight="726.0" prefWidth="1239.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0">
+        <columns>
+          <TableColumn fx:id="prenom" maxWidth="301.0" minWidth="-Infinity" prefWidth="301.0" text="Prenom" />
+          <TableColumn fx:id="nom" prefWidth="187.0" text="Nom" />
+            <TableColumn fx:id="cin" minWidth="0.0" prefWidth="248.0" text="CIN" />
+            <TableColumn fx:id="addresse" prefWidth="261.5999755859375" text="Adresse" />
+            <TableColumn fx:id="tel" prefWidth="237.60015869140625" text="Telephone" />
+        </columns>
+      </TableView>
+      <TextField fx:id="inputRecherche" layoutX="887.0" layoutY="26.0" prefHeight="25.0" prefWidth="241.0" />
+      <Button layoutX="1128.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#recherche" prefHeight="26.0" prefWidth="86.0" styleClass="loginBtn" stylesheets="@../CSS/style.css" text="chercher" />
+      <Label layoutX="470.0" layoutY="14.0" prefHeight="18.0" prefWidth="377.0" styleClass="text" stylesheets="@../CSS/style.css" text="La Liste des Clients">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

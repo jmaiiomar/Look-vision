@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="bckGolbale" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="810.0" prefWidth="1270.0" styleClass="..\CSS\style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiController.HomeController">
+   <children>
+      <Pane fx:id="bck" layoutX="625.0" layoutY="180.0" prefHeight="900.0" prefWidth="1470.0" styleClass="bck" stylesheets="@../CSS/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+         <children>
+            <VBox alignment="CENTER" layoutX="1075.0" layoutY="122.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="46.0">
+               <children>
+                  <TextField fx:id="avance" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="250.0" promptText="avance">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="avancevalidation" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="250.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ComboBox fx:id="Etat" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="250.0" promptText="Etat">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </ComboBox>
+                  <Label fx:id="etatValidation" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="250.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ComboBox fx:id="type" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="250.0" promptText="Type de Paiement">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </ComboBox>
+                  <Label fx:id="typeValidation" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="250.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <DatePicker fx:id="date" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="250.0" promptText="date">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </DatePicker>
+                  <Label fx:id="dateValidation" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="250.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Line endX="-99.29278564453125" endY="333.89288330078125" layoutX="673.0" layoutY="138.0" startX="-99.99993896484375" startY="-110.40000915527344" />
+            <VBox alignment="CENTER" layoutX="110.0" layoutY="50.0" prefHeight="242.0" prefWidth="344.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="31.0" prefWidth="260.0" styleClass="text" stylesheets="@../CSS/style.css" text="Les Informations du client">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nom" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="Prenom">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="firstnameValidation" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="298.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="prenom" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="Nom">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="lastnameValidation" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="302.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="cin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="CIN">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="cinvalidation" maxWidth="-Infinity" prefHeight="18.0" prefWidth="306.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="Telephone">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="telvalidation" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="303.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="adrress" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="Address">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="addresseValidation" maxWidth="-Infinity" prefHeight="18.0" prefWidth="318.0" textFill="RED">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Line endX="864.2000732421875" endY="-0.5" layoutX="359.0" layoutY="476.0" startX="-323.0" startY="-0.5" />
+            <Label layoutX="746.0" layoutY="506.0" styleClass="text" stylesheets="@../CSS/style.css" text="Liste du Produit à ajouter a la facutre">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ScrollPane fx:id="scrollPane" layoutX="735.0" layoutY="561.0" maxWidth="-Infinity" prefHeight="196.0" prefWidth="394.0">
+               <content>
+                  <VBox fx:id="vbox" prefHeight="201.0" prefWidth="390.0" />
+               </content>
+            </ScrollPane>
+            <Label alignment="CENTER" layoutX="784.0" layoutY="46.0" minWidth="-Infinity" prefHeight="30.0" prefWidth="294.0" styleClass="text" stylesheets="@../CSS/style.css" text="Les informations du factures">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="730.0" layoutY="216.0" minHeight="-Infinity" minWidth="-Infinity" text="De Près">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="726.0" layoutY="87.0" text="De Loin">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="542.0" layoutY="192.0" rotate="-90.0" text="Observation">
+               <font>
+                  <Font name="Arial Black" size="17.0" />
+               </font>
+            </Label>
+            <Line endX="80.1787109375" endY="7.62939453125E-6" layoutX="574.0" layoutY="205.0" rotate="-90.0" startX="-4.79998779296875" startY="7.62939453125E-6" />
+            <Button layoutX="1150.0" layoutY="627.0" mnemonicParsing="false" onAction="#enablePageConfirmation" prefHeight="1.0" prefWidth="92.0" styleClass="addbtn" stylesheets="@../CSS/style.css" text="Terminer" />
+            <Text fx:id="listProduitValidation" fill="RED" layoutX="48.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.99999999999977" />
+            <VBox layoutX="67.0" layoutY="572.0" prefHeight="86.0" prefWidth="621.0">
+               <children>
+                  <HBox prefHeight="73.0" prefWidth="300.0">
+                     <children>
+                        <VBox alignment="CENTER" maxWidth="-Infinity" prefHeight="404.0" prefWidth="451.0">
+                           <children>
+                              <TextField fx:id="type_verre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0" promptText="Type de verres">
+                                 <VBox.margin>
+                                    <Insets right="10.0" />
+                                 </VBox.margin>
+                              </TextField>
+                              <Label fx:id="typeVerresValidation" maxWidth="-Infinity" prefHeight="18.0" prefWidth="300.0" textFill="RED">
+                                 <VBox.margin>
+                                    <Insets top="5.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField fx:id="PrixVerres" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0" promptText="Prix de verres">
+                                 <VBox.margin>
+                                    <Insets right="10.0" />
+                                 </VBox.margin>
+                              </TextField>
+                              <Label fx:id="prixValidation" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="293.0" textFill="RED" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" maxWidth="-Infinity" prefHeight="404.0" prefWidth="451.0">
+                           <children>
+                              <TextField fx:id="Monture" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0" promptText="Monture">
+                                 <VBox.margin>
+                                    <Insets right="10.0" />
+                                 </VBox.margin>
+                              </TextField>
+                              <Label fx:id="MontureValidation" maxWidth="-Infinity" prefHeight="18.0" prefWidth="300.0" textFill="RED">
+                                 <VBox.margin>
+                                    <Insets top="5.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <TextField fx:id="PrixMonture" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0" promptText="Prix Monture">
+                                 <VBox.margin>
+                                    <Insets right="10.0" />
+                                 </VBox.margin>
+                              </TextField>
+                              <Label fx:id="prixMontureValidation" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="293.0" textFill="RED" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Label alignment="CENTER" layoutX="205.0" layoutY="491.0" prefHeight="0.0" prefWidth="268.0" styleClass="text" stylesheets="@../CSS/style.css" text="Les informations du produit">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="277.0" layoutY="728.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#ajouterProduit" prefWidth="200.0" styleClass="loginBtn" stylesheets="@../CSS/style.css" text="Ajouter aux panier " />
+         </children>
+      </Pane>
+      <VBox alignment="CENTER" layoutX="748.0" layoutY="176.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="59.0" prefWidth="46.0">
+         <children>
+            <TextField fx:id="od_l" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="O.D">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="og_l" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="O.G">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="od_p" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="O.D">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="og_p" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="300.0" promptText="O.G">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <padding>
+            <Insets top="15.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
