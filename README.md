@@ -1,7 +1,7 @@
 #:dark_sunglasses: Look-vision
 <br/>
 <center>
- <code><img height="70" src="https://raw.githubusercontent.com/jmaiiomar/Look-vision/main/src/image/logoo.gif"></code>
+ <span><img height="70" src="https://raw.githubusercontent.com/jmaiiomar/Look-vision/main/src/image/logoo.gif"></span>
 
  </center>
 #📣 About Look-Vision
