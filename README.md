@@ -5,39 +5,44 @@
  <p align="center"><img width="460" height="300" src="https://raw.githubusercontent.com/jmaiiomar/Look-vision/main/src/image/logoo.gif"></p>
 
 #📣 About Look-Vision
-<br/>
-
+<br>
+<hr>
 It is an optician shop who sells all things related optic domain: sunglasses:sunglasses:, bezel frame:dark_sunglasses:, lentils...
 
-
-
-
-<br/>
+<br>
+<hr>
 #🔧 Installation & Usage
 
 
-<br/>
+<br>
+<hr>
 
 <ul>
  <li>Clone the Master branch</li>
   <li>launch your server (xampp or wampserver ) and import BD file .</li>
  <li>Run project form Netbaens</li>
 </ul>
-<br/>
+<br>
+<hr>
 # 💡 Devoloped With
-<br/>
+<br>
+<hr>
 <code><img height="70" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
 <code><img height="70" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
 <code><img height="70" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<br/>
+<br>
+<hr>
 #📝 Credit
-<br/>
+<br>
+<hr>
 <h5>
 Omar JMAI
  </h5>
-<br/>
+<br>
+<hr>
 #👨‍🚀 Show your support
-<br/>
+<br>
+<hr>
 Give a ⭐️ if this project helped you!
 
 
