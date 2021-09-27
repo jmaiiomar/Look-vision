@@ -1,13 +1,17 @@
 #:dark_sunglasses: Look-vision
 <br/>
-<center>
+ 
+ 
  <p align="center"><img width="460" height="300" src="https://raw.githubusercontent.com/jmaiiomar/Look-vision/main/src/image/logoo.gif"></p>
 
- </center>
 #📣 About Look-Vision
 <br/>
 
 It is an optician shop who sells all things related optic domain: sunglasses:sunglasses:, bezel frame:dark_sunglasses:, lentils...
+
+
+
+
 <br/>
 #🔧 Installation & Usage
 
@@ -28,7 +32,9 @@ It is an optician shop who sells all things related optic domain: sunglasses:sun
 <br/>
 #📝 Credit
 <br/>
+<h5>
 Omar JMAI
+ </h5>
 <br/>
 #👨‍🚀 Show your support
 <br/>
