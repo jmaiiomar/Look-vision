@@ -30,7 +30,6 @@ It is an optician shop who sells all things related optic domain: sunglasses:sun
 Omar JMAI
  </h5>
 <br>
-<hr>
 #👨‍🚀 Show your support
 <br>
 Give a ⭐️ if this project helped you!
