@@ -18,14 +18,12 @@ It is an optician shop who sells all things related optic domain: sunglasses:sun
  <li>Run project form Netbaens</li>
 </ul>
 <br>
-<hr>
 # 💡 Devoloped With
 <br>
 <code><img height="70" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
 <code><img height="70" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"></code>
 <code><img height="70" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 <br>
-<hr>
 #📝 Credit
 <br>
 <h5>
