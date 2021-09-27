@@ -8,11 +8,9 @@
 <br>
 It is an optician shop who sells all things related optic domain: sunglasses:sunglasses:, bezel frame:dark_sunglasses:, lentils...
 
-<br>
 #🔧 Installation & Usage
 
 
-<br>
 
 <ul>
  <li>Clone the Master branch</li>
